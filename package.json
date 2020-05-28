@@ -1,0 +1,24 @@
+{
+  "name": "jenn-ballard-react-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio built with React",
+  "main": "index.js",
+  "dependencies": {
+    "create-react-app": "^3.4.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayballa7/Jenn-Ballard-React-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayballa7/Jenn-Ballard-React-Portfolio/issues"
+  },
+  "homepage": "https://github.com/jayballa7/Jenn-Ballard-React-Portfolio#readme"
+}
