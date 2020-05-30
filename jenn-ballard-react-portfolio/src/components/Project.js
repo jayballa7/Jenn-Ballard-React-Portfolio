@@ -11,6 +11,7 @@ function Project(props) {
                             <h5 className="project-header">{props.title}</h5>
                             <h3 className="description">{props.description}</h3>
                             <button className="btn"><a href = {props.url} target = "_blank">Go to App</a></button>
+                            <button className="btn"><a href = {props.repo-link} target = "_blank">Go to Repository</a></button>
                    </div>
         </div>
     )

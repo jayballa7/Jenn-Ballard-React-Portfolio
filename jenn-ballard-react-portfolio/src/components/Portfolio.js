@@ -21,8 +21,9 @@ class Portfolio extends React.Component {
                 <Project 
             // img = 'https://via.placeholder.com/150'
             title = {port.title}
-            // description = 'App made with React'
-            // url = 'https://newsflash-news-app.herokuapp.com/memberspage'
+            description = {port.description}
+            url = {port.url}
+            repo-link = {port.repo-link}
                 />
             )
             })
