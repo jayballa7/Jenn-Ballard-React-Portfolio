@@ -1,24 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
 html, body {
     margin: 0;
     height: 100%;
-    background-color: black;
+  }
+
+.hp-wrapper {
+    background-image: url('../img/star-background.jpg');
+    font-family: 'Dosis', sans-serif;
+    height: 100vh;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-rows: repeat(3, minmax(100px, 1fr));
+    gap: 1em;
+}
+
+  .hp-text {
     color: white;
   }
 
-  .hp-wrapper {
-      height: 100vh;
-      display: grid;
-      grid-template-columns: repeat(3, minmax(100px, 1fr));
-      grid-template-rows: repeat(3, minmax(100px, 1fr));
-      align-items: center;
+  .social-text {
+    color: white;
+    font-size: .8em;
+    margin-left: 3%;
+    margin-right: 5%;
   }
+
+  .hide-a {
+  color: white;
+  display: none;
+  cursor: pointer;
+  }
+
+  .hp-link {
+      color:white;
+      text-decoration: none;
+  }
+  .hp-link:hover {
+        color: #0693c7;
+  }
+
+  .boxEffects {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+  .boxEffects:hover {
+    .hp-text {
+        display: none;
+    }
+    .hide-a {
+        display: unset;
+    }
+  }
+
 
   .about-box {
       grid-column: 1;
       grid-row: 1;
   }
+
 
   .box2 {
     grid-column: 2;
@@ -30,17 +77,8 @@ html, body {
       grid-row: 1;
   }
 
+
   .name-box {
-    //   border-radius: 5%;
-    //   box-shadow:
-    //       inset 0 0 50px #fff,      /* inner white */
-    //       inset 20px 0 80px#eb5491,   /* inner left magenta short */
-    //       inset -20px 0 80px #0ff,  /* inner right cyan short */
-    //       inset 20px 0 300px #eb5491,  /* inner left magenta broad */
-    //       inset -20px 0 300px #0ff, /* inner right cyan broad */
-    //       0 0 50px #fff,            /* outer white */
-    //       -10px 0 80px #eb5491,        /* outer left magenta */
-    //       10px 0 80px #0ff;         /* outer right cyan */
       grid-column: 1 / span 3;
       grid-row: 2;
   }
@@ -50,7 +88,13 @@ html, body {
       grid-row: 3;
   }
 
+
   .links-box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
     grid-column: 2;
     grid-row: 3;
   }
@@ -59,32 +103,14 @@ html, body {
       grid-column: 3;
       grid-row: 3;
   }
-
-//   .jenn-logo {
-//     background: url('../img/space.jpg') -30px -30px;
-//     -webkit-text-fill-color: transparent;
-//     -webkit-background-clip: text;
-//     font-weight: bold;
-//     font-size: 10em;
-//     font-family: arial, helvetica;
-//     margin: 50px auto;
-// }
-
   
-  /*Neon*/
-  .jenn-logo {
+
+.jenn-logo {
     text-align: center;
-    font-size: 6em;
+    font-size: 3em;
     margin: 20px 0 20px 0;
-  }
-  
-  
-  .jenn-logo {
     color: #0693c7;
     font-family: 'Rock Salt', cursive;
-  }
-  
-  .jenn-logo:hover {
     -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
     -moz-animation: neon6 1.5s ease-in-out infinite alternate;
     animation: neon6 1.5s ease-in-out infinite alternate;
@@ -118,6 +144,10 @@ html, body {
       text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
     }
   }
+
+
+
+
 
 
 
