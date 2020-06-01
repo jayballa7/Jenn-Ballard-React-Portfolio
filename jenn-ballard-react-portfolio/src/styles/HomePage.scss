@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: black;
+    color: white;
+  }
+
+  .hp-wrapper {
+      height: 100vh;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(100px, 1fr));
+      grid-template-rows: repeat(3, minmax(100px, 1fr));
+      align-items: center;
+  }
+
+  .about-box {
+      grid-column: 1;
+      grid-row: 1;
+  }
+
+  .box2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .contact-box {
+      grid-column: 3;
+      grid-row: 1;
+  }
+
+  .name-box {
+    //   border-radius: 5%;
+    //   box-shadow:
+    //       inset 0 0 50px #fff,      /* inner white */
+    //       inset 20px 0 80px#eb5491,   /* inner left magenta short */
+    //       inset -20px 0 80px #0ff,  /* inner right cyan short */
+    //       inset 20px 0 300px #eb5491,  /* inner left magenta broad */
+    //       inset -20px 0 300px #0ff, /* inner right cyan broad */
+    //       0 0 50px #fff,            /* outer white */
+    //       -10px 0 80px #eb5491,        /* outer left magenta */
+    //       10px 0 80px #0ff;         /* outer right cyan */
+      grid-column: 1 / span 3;
+      grid-row: 2;
+  }
+
+  .portfolio-box {
+      grid-column: 1;
+      grid-row: 3;
+  }
+
+  .links-box {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .resume-box {
+      grid-column: 3;
+      grid-row: 3;
+  }
+
+//   .jenn-logo {
+//     background: url('../img/space.jpg') -30px -30px;
+//     -webkit-text-fill-color: transparent;
+//     -webkit-background-clip: text;
+//     font-weight: bold;
+//     font-size: 10em;
+//     font-family: arial, helvetica;
+//     margin: 50px auto;
+// }
+
+  
+  /*Neon*/
+  .jenn-logo {
+    text-align: center;
+    font-size: 6em;
+    margin: 20px 0 20px 0;
+  }
+  
+  
+  .jenn-logo {
+    color: #0693c7;
+    font-family: 'Rock Salt', cursive;
+  }
+  
+  .jenn-logo:hover {
+    -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon6 1.5s ease-in-out infinite alternate;
+    animation: neon6 1.5s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes neon6 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+    }
+  }
+  /*glow for mozilla*/
+  
+  @-moz-keyframes neon6 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+    }
+  }
+  /*glow*/
+  
+  @keyframes neon6 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+    }
+  }
+
+
+
+  
+
+  

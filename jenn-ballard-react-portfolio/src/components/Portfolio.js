@@ -23,7 +23,7 @@ class Portfolio extends React.Component {
             title = {port.title}
             description = {port.description}
             url = {port.url}
-            repo-link = {port.repo-link}
+            repolink = {port.repolink}
                 />
             )
             })
