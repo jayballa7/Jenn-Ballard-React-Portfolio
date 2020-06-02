@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import '../styles/Portfolio.scss';
 import Header from '../components/Header.js';
 import Project from './Project.js';
+import Footer from './Footer.js';
 import Pjson from '../utils/projects.json';
 
 class Portfolio extends React.Component {
@@ -33,6 +34,7 @@ render() {
             )
         }
             </div>
+            <Footer />
         </div>
     )
     }
