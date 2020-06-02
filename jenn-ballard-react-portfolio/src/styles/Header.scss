@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url('../img/star-background.jpg');
+    border-bottom: 2px solid #0d014f;
+}
+
+.jenn-header {
+    display: inline-block;
+    padding-left: 10%;
+    font-size: 3em;
+    margin: 20px 0 20px 0;
+    color: #0693c7;
+    font-family: 'Rock Salt', cursive;
+    -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon6 1.5s ease-in-out infinite alternate;
+    animation: neon6 1.5s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes neon6 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+    }
+  }
+  /*glow for mozilla*/
+  
+  @-moz-keyframes neon6 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+    }
+  }
+  /*glow*/
+  
+  @keyframes neon6 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+    }
+  }
+
+.hp-btn {
+    width: 10%;
+    height: 40%;
+    margin-right: 3%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-size: 1em;
+    font-family: 'Dosis', sans-serif;
+    font-weight:bold;
+}
+
+.hp-btn:before {
+    content: '';
+    background: linear-gradient(45deg, #00ffd5, #002bff, #7a00ff, #ff00c8);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+
+.hp-btn:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
