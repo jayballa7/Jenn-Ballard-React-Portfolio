@@ -37,6 +37,11 @@ html, body {
     grid-row: 2;
 }
 
+.footer {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
 
 @media only screen 
 and (min-device-width : 350px) 

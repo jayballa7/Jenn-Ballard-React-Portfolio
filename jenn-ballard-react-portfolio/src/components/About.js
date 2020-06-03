@@ -18,7 +18,9 @@ function About() {
                     <p>In my free time I enjoy going to concerts, playing soccer, watching sports (Go Hawks!), and spending time with my two new kittens, Taco & Tequila.</p>
                 </div>
             </div>
+            <div className = "footer">
             <Footer />
+            </div>
         </div>
     )
 }

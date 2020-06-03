@@ -13,7 +13,7 @@ function HomePage() {
                    <div className="box2 boxEffects"></div>
                    <div className="contact-box boxEffects">
                        <p className = "hp-text">Contact Me</p>
-                       <p className = "hide-a">Get in touch with me</p>
+                       <p className = "hide-a"><Link to = '/contact' className = "hp-link">Get in touch with me</Link></p>
                        </div>
                    <div className="name-box">
                         <h1 className = "jenn-logo">JENN BALLARD</h1>
