@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
 
 .project-wrapper {
     font-family: 'Dosis', sans-serif;
@@ -6,6 +6,7 @@
     margin: 0 auto;
     margin-top: 5%;
     margin-bottom: 8%;
+    padding-bottom: 5%;
     color: black;
     background-color: white;
     border: 3px solid black;
@@ -14,7 +15,7 @@
     0 0 0 5px hsl(244, 97%, 14%),
     0 0 0 5px hsl(226, 97%, 36%),
     0 0 0 10px hsl(199, 95%, 37%),
-    0 0 0 15px hsl(0, 0%, 80%),
+    0 0 0 15px hsl(0, 0%, 80%);
 }
 
 .img-div {
@@ -27,3 +28,26 @@
         border: 5px solid black;
    } 
 }
+
+.app-btn {
+    font-family: 'Dosis', sans-serif;
+    width: 70%;
+    padding: 2%;
+    margin-bottom: 2%;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    border:0.1em solid black;
+    box-shadow: 3px 3px 3px #b006b6;
+  }
+
+  .repo-btn {
+    font-family: 'Dosis', sans-serif;
+    width: 50%;
+    padding: 2%;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 1rem;
+    border:0.1em solid black;
+    box-shadow: 3px 3px 3px #072bca;
+  }
