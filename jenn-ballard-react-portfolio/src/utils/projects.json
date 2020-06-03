@@ -1,38 +1,42 @@
 { "portfolio":
     [
 {
+    "image": "news",
     "title": "NewsFlash",
     "description": "An app for getting the news you want in a flash.",
     "url": "https://newsflash-news-app.herokuapp.com/",
     "repolink": "https://github.com/jayballa7/news-app.git"
 },
 {
-
+    "image": "crime",
     "title": "Crime Radar",
     "description": "An app to track crime happening near you.",
     "url": "https://mitchelljohnson3.github.io/project-1/",
     "repolink": "https://github.com/jayballa7/project-1.git"
 },
 {
-
+    "image": "rend",
     "title": "Rendezvous",
     "description": "An app to meet people and hangout.",
     "url": "https://ancient-cliffs-00912.herokuapp.com/",
     "repolink": "https://github.com/jayballa7/Project2.git"
 },
 {
+    "image": "weather",
     "title": "Weather Dashboard",
     "description": "An app that displays the current weather and 5 day forecast for any city.",
     "url": "https://jayballa7.github.io/Ballard-Weather-API-Dashboard/",
     "repolink": "https://github.com/jayballa7/Ballard-Weather-API-Dashboard.git"
 },
 {
+    "image": "emp",
     "title": "Employee Tracker",
     "description": "A Mysql command-line program for keeping track of employees, roles, and departments.",
     "url": "https://drive.google.com/file/d/1w0uB-bwU91y_Pi91ww9qYK0MoWqmnMkG/view",
     "repolink": "https://github.com/jayballa7/Ballard-Employee-Tracker.git"
 },
 {
+    "image": "burger",
     "title": "Eat Da Burger",
     "description": "An app using handlebars templating for entering burgers you want to devour.",
     "url": "https://fathomless-cliffs-94265.herokuapp.com/",

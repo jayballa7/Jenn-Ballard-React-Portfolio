@@ -4,6 +4,7 @@ import Header from '../components/Header.js';
 import Project from './Project.js';
 import Footer from './Footer.js';
 import Pjson from '../utils/projects.json';
+// import Images from '../components/Images.js';
 
 class Portfolio extends React.Component {
     constructor() {
@@ -19,16 +20,18 @@ render() {
     return(
         <div className = "p-wrapper">
             <Header/>
-            <div>
-                {Pjson.portfolio.map((port) => {
+            <div className = "projects-div">
+                {Pjson.portfolio.map((port,index) => {
                     return (
+                        <div className={"project-"+index}>
                     <Project 
-                        // img = 'https://via.placeholder.com/150'
+                        image = {port.image}
                         title = {port.title}
                         description = {port.description}
                         url = {port.url}
                         repolink = {port.repolink}
                     />
+                    </div>
                     )
                 }
             )

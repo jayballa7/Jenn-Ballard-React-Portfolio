@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+.project-wrapper {
+    font-family: 'Dosis', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 
+    0 0 0 5px hsl(244, 97%, 14%),
+    0 0 0 5px hsl(226, 97%, 36%),
+    0 0 0 10px hsl(199, 95%, 37%),
+    0 0 0 15px hsl(0, 0%, 80%),
+}
+
+.img-div {
+   img {
+        width: 90%;
+        margin-top: 5%;
+        object-fit: cover;
+        max-height: 13em;
+        border-radius: 10px;
+        border: 5px solid black;
+   } 
+}
