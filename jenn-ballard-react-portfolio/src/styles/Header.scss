@@ -106,3 +106,48 @@
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
+@media only screen 
+and (min-device-width : 350px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+
+    .header-wrapper {
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: center;
+        width: 100%;
+        height: 12%;
+        // position: fixed;
+        // top: 0;
+        // left: 0;
+        // background-image: url('../img/star-background.jpg');
+        // border-bottom: 2px solid #0d014f;
+    }
+
+
+    .jenn-header {
+        display: inline-block;
+        padding-left: 5%;
+        font-size: 1.8em;
+        // margin: 20px 0 20px 0;
+      }
+
+      .hp-btn {
+        width: 18%;
+        height: 20%;
+        margin-right: 4%;
+        // border: none;
+        // outline: none;
+        // color: #fff;
+        // background: #111;
+        // cursor: pointer;
+        // position: relative;
+        // z-index: 0;
+        // border-radius: 10px;
+        font-size: .7em;
+        // font-family: 'Dosis', sans-serif;
+        // font-weight:bold;
+    }
+
+}

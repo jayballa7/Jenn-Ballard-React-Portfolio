@@ -145,6 +145,80 @@ html, body {
     }
   }
 
+  //iphone X
+@media only screen 
+and (min-device-width : 350px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+
+    .hp-wrapper {
+        height: 100vh;
+        font-size: 1.5em;
+        font-weight: bold;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(50px, auto);
+        gap: 0em;
+    }
+
+    // .boxEffects {
+    //     display: block;
+    //     // height: 0%;
+    //   }
+
+    .social-text {
+        font-size: .7em;
+        margin-left: 0%;
+        margin-right: 0%;
+      }
+
+    .jenn-logo {
+        font-size: 2em;
+        margin: 20px 0 20px 0;
+    }
+    
+    .name-box {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .links-box {
+        // height: 100%;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        // border-radius: 20px;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .about-box {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .portfolio-box {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    
+    .contact-box {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    
+    .resume-box {
+        grid-column: 1;
+        grid-row: 6;
+    }
+
+    .box2 {
+        grid-column: 1;
+        grid-row: 7;
+    }
+
+}
+
 
 
 

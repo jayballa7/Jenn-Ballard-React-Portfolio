@@ -8,7 +8,7 @@ function HomePage() {
         <div className="hp-wrapper">
                    <div className="about-box boxEffects">
                        <p className = "hp-text">About Me</p>
-                       <p className = "hide-a"><Link to ='/about' target="__blank" className = "hp-link">Get to know me</Link></p>
+                       <p className = "hide-a"><Link to ='/about' className = "hp-link">Get to know me</Link></p>
                     </div>
                    <div className="box2 boxEffects"></div>
                    <div className="contact-box boxEffects">
@@ -20,7 +20,7 @@ function HomePage() {
                     </div>
                    <div className="portfolio-box boxEffects">
                        <p className = "hp-text">Portfolio</p>
-                       <p className = "hide-a"><Link to ='/portfolio' target="__blank" className = "hp-link">Check out my work</Link></p>
+                       <p className = "hide-a"><Link to ='/portfolio' className = "hp-link">Check out my work</Link></p>
                     </div>
                    <div className="links-box">
                         <SocialIcon url="https://github.com/jayballa7" target="__blank" bgColor="#b547d6"/>
@@ -30,7 +30,7 @@ function HomePage() {
                     </div>
                    <div className="resume-box boxEffects">
                        <p className = "hp-text">Resume</p>
-                       <p className = "hide-a">Need a dev?</p>
+                       <p className = "hide-a"><a href = "https://docs.google.com/document/d/1MbL5DzF0dkqPVtUqBTWfLfdcuXQ1xqqKumvSsX3QeiU/edit?usp=sharing" target="_blank" style={{textDecoration:"none"}}>Need a dev?</a></p>
                     </div>
         </div>
     )
