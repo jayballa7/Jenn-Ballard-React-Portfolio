@@ -1,6 +1,5 @@
 .projects-div {
-    margin-top: 12%;
-    // margin-bottom: 12%;
+    margin-top: 2%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 20vh;
@@ -44,8 +43,8 @@ and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 
     .projects-div {
-        margin-top: 35%;
-        margin-bottom: 0%;
+        margin-top: 10%;
+        margin-bottom: -20%;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 20vh;
@@ -77,6 +76,7 @@ and (-webkit-device-pixel-ratio : 3) {
     }
 
     .port-footer {
+        margin-top: 0%;
         grid-column: 1;
         grid-row: 7;
     }

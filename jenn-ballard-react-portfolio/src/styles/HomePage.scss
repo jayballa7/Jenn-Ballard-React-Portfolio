@@ -157,7 +157,7 @@ and (-webkit-device-pixel-ratio : 3) {
         font-weight: bold;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(50px, auto);
+        grid-template-rows: 35vh 15vh 10vh 10vh 10vh 10vh;
         gap: 0em;
     }
 
@@ -168,6 +168,7 @@ and (-webkit-device-pixel-ratio : 3) {
 
     .social-text {
         font-size: .7em;
+        // margin-top: 20%;
         margin-left: 0%;
         margin-right: 0%;
       }
