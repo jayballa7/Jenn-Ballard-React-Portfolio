@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Jenn-Ballard-React-Portfolio/static/css/main.ff3a8082.chunk.css",
+    "main.js": "/Jenn-Ballard-React-Portfolio/static/js/main.1c11213b.chunk.js",
+    "main.js.map": "/Jenn-Ballard-React-Portfolio/static/js/main.1c11213b.chunk.js.map",
+    "runtime-main.js": "/Jenn-Ballard-React-Portfolio/static/js/runtime-main.27f59af7.js",
+    "runtime-main.js.map": "/Jenn-Ballard-React-Portfolio/static/js/runtime-main.27f59af7.js.map",
+    "static/js/2.0d688b6d.chunk.js": "/Jenn-Ballard-React-Portfolio/static/js/2.0d688b6d.chunk.js",
+    "static/js/2.0d688b6d.chunk.js.map": "/Jenn-Ballard-React-Portfolio/static/js/2.0d688b6d.chunk.js.map",
+    "index.html": "/Jenn-Ballard-React-Portfolio/index.html",
+    "precache-manifest.d75b6f5a48b14e63c86b2b20fc37774e.js": "/Jenn-Ballard-React-Portfolio/precache-manifest.d75b6f5a48b14e63c86b2b20fc37774e.js",
+    "service-worker.js": "/Jenn-Ballard-React-Portfolio/service-worker.js",
+    "static/css/main.ff3a8082.chunk.css.map": "/Jenn-Ballard-React-Portfolio/static/css/main.ff3a8082.chunk.css.map",
+    "static/js/2.0d688b6d.chunk.js.LICENSE.txt": "/Jenn-Ballard-React-Portfolio/static/js/2.0d688b6d.chunk.js.LICENSE.txt",
+    "static/media/Contact.scss": "/Jenn-Ballard-React-Portfolio/static/media/astronaut.c8e0dbe5.jpg_fit=scale",
+    "static/media/crimeradar.PNG": "/Jenn-Ballard-React-Portfolio/static/media/crimeradar.9f3c5b80.PNG",
+    "static/media/eatdaburger.png": "/Jenn-Ballard-React-Portfolio/static/media/eatdaburger.45a95aa4.png",
+    "static/media/employeetracker.png": "/Jenn-Ballard-React-Portfolio/static/media/employeetracker.dea38a93.png",
+    "static/media/newsflash.PNG": "/Jenn-Ballard-React-Portfolio/static/media/newsflash.8daad608.PNG",
+    "static/media/profile-photo.jpg": "/Jenn-Ballard-React-Portfolio/static/media/profile-photo.5b425f56.jpg",
+    "static/media/rendezvous.PNG": "/Jenn-Ballard-React-Portfolio/static/media/rendezvous.1c374c4d.PNG",
+    "static/media/Footer.scss": "/Jenn-Ballard-React-Portfolio/static/media/star-background.de2225ff.jpg",
+    "static/media/weatherdashboard.PNG": "/Jenn-Ballard-React-Portfolio/static/media/weatherdashboard.fb71a5cd.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27f59af7.js",
+    "static/js/2.0d688b6d.chunk.js",
+    "static/css/main.ff3a8082.chunk.css",
+    "static/js/main.1c11213b.chunk.js"
+  ]
+}
